@@ -34,7 +34,7 @@ public class DriverConnection {
     private static void setWebDriverSettings(){
         try {
             LOGGER.info("[NOTE]: Initiate Firefox Driver");
-            String strAppUrl = "https://www.railplus.com.au/";
+            String strAppUrl = "https://staging.railplus.com.au/";
 
             driver.manage().timeouts().implicitlyWait((long)8000, TimeUnit.MILLISECONDS);
             driver.manage().window().maximize();
